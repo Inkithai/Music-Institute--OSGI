@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MiddleService
+Bundle-SymbolicName: com.musicAcademy.osgi.MiddleService
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.musicacademy.osgi.middleservice.MiddleServiceActivator
+Bundle-Vendor: MUSICACADEMY
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.musicAcademy.osgi.MiddleService
+Import-Package: com.musicacademy.osgi.coursepublisher,
+ com.musicacademy.osgi.musicresourcespublisher,
+ com.musicacademy.osgi.quizpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.musicAcademy.osgi.EventPublisher
+Export-Package: com.musicacademy.osgi.middleservice

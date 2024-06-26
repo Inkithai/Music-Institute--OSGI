@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: StudentConsumer
+Bundle-SymbolicName: com.musicAcademy.osgi.StudentConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.musicacademy.osgi.studentconsumer.StudentConsumerActivator
+Bundle-Vendor: MUSICACADEMY
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.musicAcademy.osgi.StudentConsumer
+Import-Package: com.musicacademy.osgi.middleservice,
+ com.musicacademy.osgi.quizpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

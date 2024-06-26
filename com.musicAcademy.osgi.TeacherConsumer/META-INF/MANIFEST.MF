@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TeacherConsumer
+Bundle-SymbolicName: com.musicAcademy.osgi.TeacherConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.musicacademy.osgi.teacherconsumer.MusicTeacherConsumerActivator
+Bundle-Vendor: MUSICACADEMY
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.musicAcademy.osgi.TeacherConsumer
+Import-Package: com.musicacademy.osgi.coursepublisher,
+ com.musicacademy.osgi.middleservice,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MusicResourcesConsumer
+Bundle-SymbolicName: com.musicAcademy.osgi.AdminConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.musicacademy.osgi.adminconsumer.AdminConsumerActivator
+Bundle-Vendor: MUSICACADEMY
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: com.musicAcademy.osgi.musicResourcesConsumer
+Import-Package: com.musicacademy.osgi.middleservice,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.musicAcademy.osgi.musicResourcePublisher;bundle-version="1.0.0"
